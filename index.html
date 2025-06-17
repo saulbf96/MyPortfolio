@@ -1,0 +1,230 @@
+<!--Aqui empieza mi pagina web profesional para mi portafolio -->
+
+<!<!DOCTYPE html>
+    
+
+<html lang="es">
+    <head>
+
+        <!--En esta parte va todo lo que se integra tipografia, los estilos-->
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0"name="viewport">
+        <title>Saúl Basilio Desarrollador de Software </title>
+        <meta name="description" content="Desarrollador de Software Multiplataforma">
+        <meta name=" keyboards" content="portafolio,desarrollador,.NET, C#, Blazor, HTML, CSS, SQL, programación, sistemas">
+
+        <!--favicons -->
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/img/laptop-icon16x16.png">
+        <link rel="apple-touch-icon" href="assets/img/laptop-icon16x16.png">
+
+        <!--fonst tipo de letra -->
+        <link href="https://fonts.googleapis.com" rel="preconnect">
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+        <!--vendor  css files -->
+        <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+        <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+        <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+        <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+        <!--agregamos api de icons tambien -->
+        <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+        
+
+
+        <!--Aqui el Main css-->
+        <link rel="stylesheet" href="assets/css/main.css">
+
+    </head>
+
+    <body class="index-page">
+        <!--En este header esta lo mas importante que es nvar del menu -->
+        <header id="header" class="header dark-background d-flex flex-column justify-content-center">
+            <i class="header-toggle d-xl-none bi bi-list"></i>
+            <div class="header-container d-flex flex-column align-items-start idioma es active">
+                <nav id="navmenu" class="navmenu">
+                    <ul>
+                        <li><a href="#hero" class="active"><i class="bi bi-house navicon ">Inicio</i></a></li>
+                        <li><a href="#about"><i class="bi bi-person navicon">Sobre mi</i></a></li>
+                        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon">Resumen</i></a></li>
+                        <li><a href="#portfolio"><i class="bi bi-images navicon">Portafolio</i></a></li>
+                        <li><a href="#services"><i class="bi bi-hdd-stack navicon">Servicios</i></a></li>
+                        <!--  desplegables
+                        <li class="dropdown"><a href="#"><i class bi bi-menu-button navicon></i><span>Despelgable</span></a></li>
+                        <ul>
+                            <li><a href="#">Dropdown 1</a></li>
+                            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                                <ul>
+                                    <li><a href="#">Deep Dropdown 1</a></li>
+                                    <li><a href="#">Deep Dropdown 2</a></li>
+                                    <li><a href="#">Deep Dropdown 3</a></li>
+                                    <li><a href="#">Deep Dropdown 4</a></li>
+                                    <li><a href="#">Deep Dropdown 5</a></li>
+                                </ul>
+                        
+                        </ul> -->
+                        <!--aqui termina desplegable-->
+                        <li><a href="#contact"><i class="bi bi-envelope navicon"></i>Contacto</a></li>
+                    </ul>
+
+                </nav>
+                <!--TERMINA NVAR DE MENU -->
+                <!-- AQUI PONDRE MIS REDES SOCIALES -->
+                
+                <div class="social links text-center">
+                    <a href="https://github.com/saulbf96" class="github"><i class="bi bi-github "></i></a>
+                    <a href="https://www.linkedin.com/in/saul-basilio-6774b4184/" class="linkendin"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://www.instagram.com/_saul.bf/" class="instagram"><i class="bi bi-instagram" ></i></a>
+                </div>
+
+            </div>
+
+                <!--aqui termina el header donde esta el menu con los iconos de las redes sociales -->
+        </header>
+
+        <main class="main">
+            <!--Secion Hero-->
+            <section id="hero" class="hero section"><!--este es una fregmento principal para mostrar hero es una parte destacada -->
+                <div class="background-elements"> <!--aqui agrupamos los elementos para posicionarlos  y darles estilo -->
+                    <div class="bg-circle circle-1"></div><!--estos dos son elementos vacios para darle pormas como circulo en este caso-->
+                    <div class="bg-circle circle-2"></div>
+                </div>
+<!--los div se usan cuando no son importantes sin significado especifico para agrupar contenido -->
+<!--un div se usa para elemento que se puedan manipular juntos si tienes un bloque de botones ponerlos aqui es facil moverlos-->
+<!--si tienes un titulo y un parrafo que quieres centarr juntos con un div es suficiente-->
+<!--pero si agregas botones aparte con estilos diferentes puede que s euse otro div y asi sucesivamente-->
+                <!--hero contec-->
+                <div class="hero-content"> <!--aqui agrupamos todo el contenido -->
+                    <div class="container"> <!--aqui definimos un area centrada ancho maximo para que el contenido no se expanda-->
+                        <div class="row align-items-center"><!--row es para organizar columnas Horizontalmente -->
+                                                            <!--align..centra el contenido verticalmente dentro de la fila -->
+                                                            <!--aos indica que tendra animacion al aparecer no afecta alos demas-->
+                            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100"><!--col-lg-6 indica que esa columna ocupa la mitad del ancho en pantallas grandes-->
+                                <div class="hero-text"><!--aqui agrupa solo texto y botones para darles estilo juntos -->
+                                    <h1>MI PORTAFOLIO <span class="accent-text">PROFESIONAL</span></h1>
+                                    <h2>Saúl Basilio Figueroa</h2>
+                                    <p class="lead"> Yo soy un <span class="typed" data-typed-items="Full Stack Developer,Web Developer,.NET Developer,Software Developer,Backend Developer,Blazor Developer,Multiplatform Software Developer,SQL Developer,IT Support and Developer"></span></p>
+                                    <p class="description">Apasionado por desarrollar soluciones tecnológicas que combinan diseño moderno y programación funcional. Siempre aprendiendo y mejorando.</p>
+                                    
+                                    
+                                    <div class="hero-actions"><!--este pedaso es para dar click llevarte a #-->
+                                        <a href="#portfolio" class="btn btn-primary">Ver Mi Trabajo</a>
+                                        <a href="#contact" class="btn btn-outline">Comunícate Conmigo</a>
+                                    </div>
+
+                                    <!--emojis de lenguaje----------------------------------------------- -->
+                                    <div class="social-links">
+                                        <a href="#"><i class="devicon-javascript-plain colored"></i></a>
+                                        <a href="#"><i class="devicon-csharp-plain-wordmark"></i></a>
+                                        <a href="#"><i class="devicon-html5-plain colored"></i></a>
+                                        <a href="#"><i class="devicon-dotnetcore-plain colored"></i></a>
+                                        <a href="#"><i class="devicon-amazonwebservices-plain-wordmark colored"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+                                <div class="hero-visual">
+                                    <div class="profile-container">
+                                        <div class="profile-backgroud"></div>
+                                        <img src="assets/img/profile/mIfotoPerfil 400x400.jpg" alt="Saúl Basilio" class="profile-image">
+                                        <div class="floating-elements">
+                                            <div class="floating-icon icon-1"><i class="bi bi-palette"></i></div>
+                                            <div class="floating-icon icon-2"><i class="bi bi-code-slash"></i></div>
+                                            <div class="floating-icon icon-3"><i class="bi bi-lightbulb"></i></div>
+                                            <div class="floating-icon icon-4"><i class="bi bi-graph-up"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--final de imagen icones-->
+
+                        </div>
+                    </div>
+                </div>
+            </section><!--final de section hero-->
+
+            <!--Seccion de  sobre mi -->
+            <section id="about" class="about section">
+                <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                    <div class="row">
+                        <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="profile-card">
+                                <div class="profile-header">
+                                    <div class="profile-image"><!--Aqui esta donde la foto para el tipo cv -->
+                                        <img src="assets/img/profile/mIfotoPerfil 400x400.jpg" alt="Profile Image" class="img-fluid">
+                                    </div>
+                                    <div class="profile-badge">
+                                        <i class="bi bi-check-circle-fill"></i>
+                                    </div>
+                                </div>
+
+
+                                <div class="profile-content">
+                                    <h3>Saúl Basilio</h3>
+                                    <p class="profession"> Ingeniero en Desarrollo de Software &amp, Full Stack</p>
+
+                                </div>
+
+                                    <div class="contact-links">
+                                        <a href="mailto:saulbf96@outlook.es" class="contact-item">
+                                            <i class="bi bi-envelope"></i>
+                                            saulbf96@outlook.es
+                                        </a>
+                                        <a href="Tel:5613071232" class="contact-item">
+                                            <i class="bi bi-telephone"></i>
+                                            5613071232
+                                        </a>
+                                        <a href="#" class="contact-item">
+                                            <i class="bi bi-geo-alt"></i>
+                                            Ciudad de México
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-7" data-aos="fade-left" data-aos-delay="300">
+                            <div class="about-content">
+                                <div class="section-header">
+                                    <span class="badge-text">Conóceme</span>
+                                    <h2>Ingeniero en Sistemas Computacionales </h2>
+                                </div>
+                                <div class="description">
+                                    <p>Ingeniero en Sistemas Computacionales con experiencia en desarrollo backend y soporte técnico. He trabajado en el desarrollo de aplicaciones utilizando C#, SQL Server y Visual Studio, enfocado en la implementación de lógica de negocio, desarrollo de APIs, consultas eficientes a bases de datos y mantenimiento de sistemas.</p>
+
+                                    <p>Poseo sólidos conocimientos en programación orientada a objetos, estructuras de datos, control de versiones con Git, y desarrollo bajo la metodología ágil Scrum, participando activamente en reuniones diarias, planificación de sprints y entrega continua de valor. </p>
+
+                                    <p>Además, tengo experiencia en la automatización de tareas mediante scripts, manejo de entornos Linux, y diseño básico de interfaces con HTML. Me destaco por mi capacidad para resolver problemas técnicos, escribir código limpio y escalable.</p>
+
+                                </div>
+<!--Numero de las targetas ----------------------------------------------------------------------------------------------->
+                                <div class="stats-grid">
+                                    <div class="stats-item">
+                                        <div class="stat-number">00</div>
+                                        <div class="stat-label">Proyectos en los que he intervenido</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-number">00</div>
+                                        <div class="stat-label">experiencia en años </div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-number">00</div>
+                                        <div class="stat-label">clientes</div>
+
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </section><!--About Section final -->
+        </main>
+    </body>
+</html>
